@@ -1,0 +1,1465 @@
+@import url('http://fonts.cdnfonts.com/css/product-sans');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i");
+.body{
+    position: relative;
+    width: 1440px;
+    height: 1379px;
+    background: #F3F3F3;
+}
+.bodyloginregister{
+    position: relative;
+    width: 1440px;
+    height: 969px;
+    background: #F3F3F3;
+}
+.signin{
+    position: absolute;
+    width: 550px;
+    height: 429px;
+    left: 445px;
+    top: 270px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.signup{
+    position: absolute;
+    width: 550px;
+    height: 479px;
+    left: 445px;
+    top: 270px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.borderlogin{
+    z-index: 1;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 1125px;
+    top: 55px;
+    border: 2px solid #393939;
+    border-radius: 1px;
+}
+.login{
+    z-index: 2;
+    position: absolute;
+    width: 36px;
+    height: 17px;
+    left: 1156px;
+    top: 61px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #393939;
+}
+.borderregister{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 1240px;
+    top: 55px;
+    background: #393939;
+    border-radius: 1px;
+}
+.register{
+    position: absolute;
+    width: 55px;
+    height: 17px;
+    left: 1262px;
+    top: 61px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.FotoProfil{
+    z-index: 2;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1280px;
+    top: 40px;
+}
+.keranjang{
+    position: absolute;
+    left: 83.96%;
+    right: 13.61%;
+    top: 3.94%;
+    bottom: 93.72%;
+}
+.p1{
+    position: absolute;
+    width: 683px;
+    height: 60px;
+    left: 379px;
+    top: 187px;
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
+.p2{
+    position: absolute;
+    width: 780px;
+    height: 56px;
+    left: 330px;
+    top: 237px;
+    font-family: 'Sabon RomanOsF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+}
+.frame{
+    z-index: 2;
+    position: absolute;
+    width: 111px;
+    height: 65px;
+    left: 100px;
+    top: 39px;
+}
+.frame1{
+    position: absolute;
+    width: 1440px;
+    height: 345px;
+    left: 0px;
+    top: 422px;
+}
+.book1{
+    position: absolute;
+    width: 236.22px;
+    height: 345.09px;
+    left: 0px;
+    top: 0px;
+}
+.book2{
+    position: absolute;
+    width: 236.22px;
+    height: 345.09px;
+    left: 601.86px;
+    top: 0px;
+}
+.book3{
+    position: absolute;
+    width: 236.22px;
+    height: 345.09px;
+    left: 1203.71px;
+    top: 0px;
+}
+.rectangle1{
+    position: absolute;
+    width: 268.06px;
+    height: 277.31px;
+    left: 236.22px;
+    top: 33.89px;
+}
+.rectangle2{
+    position: absolute;
+    width: 268.06px;
+    height: 277.31px;
+    left: 838.08px;
+    top: 33.89px;
+}
+.judul1{
+    position: absolute;
+    width: 221px;
+    height: 28px;
+    left: 30px;
+    top: 405px;
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.by1{
+    position: absolute;
+    width: 109.9px;
+    height: 14.38px;
+    left: 30px;
+    top: 485px;
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    color: #929292;
+}
+.deskripsi1{
+    position: absolute;
+    width: 223.9px;
+    height: 43.14px;
+    left: 30px;
+    top: 515px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 121.5%;
+    text-align: justify;
+    color: #000000;
+}
+.harga1{
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 30px;
+    top: 585px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #44B300;
+}
+.borderadd1{
+    position: absolute;
+    width: 220.82px;
+    height: 39.03px;
+    left: 30px;
+    top: 635px;
+    background: #393939;
+}
+.addcart1{
+    position: absolute;
+    width: 100px;
+    height: 19.51px;
+    left: 92px;
+    top: 632px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.judul2{
+    position: absolute;
+    width: 221px;
+    height: 28px;
+    left: 30px;
+    top: 405px;
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.by2{
+    position: absolute;
+    width: 109.9px;
+    height: 14.38px;
+    left: 30px;
+    top: 485px;
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    color: #929292;
+}
+.deskripsi2{
+    position: absolute;
+    width: 223.9px;
+    height: 43.14px;
+    left: 30px;
+    top: 515px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 121.5%;
+    text-align: justify;
+    color: #000000;
+}
+.harga2{
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 30px;
+    top: 585px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #44B300;
+}
+.borderadd2{
+    position: absolute;
+    width: 220.82px;
+    height: 39.03px;
+    left: 30px;
+    top: 635px;
+    background: #393939;
+}
+.addcart2{
+    position: absolute;
+    width: 100px;
+    height: 19.51px;
+    left: 92px;
+    top: 632px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.list{
+    position: absolute;
+    width: 150px;
+    height: 37px;
+    left: 101px;
+    top: 788px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 101.5%;
+    color: #000000;
+}
+.book4{
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    left: 100px;
+    top: 887px;
+    border-radius: 1px;
+}
+.book5{
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    left: 360px;
+    top: 887px;
+    border-radius: 1px;
+}
+.book6{
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    left: 620px;
+    top: 890px;
+    border-radius: 1px;
+}
+.book7{
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    left: 880px;
+    top: 890px;
+    border-radius: 1px;
+}
+.book8{
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    left: 1140px;
+    top: 890px;
+    border-radius: 1px;
+}
+.judul4{
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    left: 100px;
+    top: 1155px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #000000;
+}
+.by4{
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    left: 100px;
+    top: 1234px;
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    color: #929292;
+}
+.harga4{
+    position: absolute;
+    width: 92px;
+    height: 25px;
+    left: 95px;
+    top: 1259px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #44B300;
+}
+.judul5{
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    left: 360px;
+    top: 1155px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #000000;
+}
+.by5{
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    left: 360px;
+    top: 1234px;
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    color: #929292;
+}
+.harga5{
+    position: absolute;
+    width: 92px;
+    height: 25px;
+    left: 355px;
+    top: 1259px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #44B300;
+}
+.judul6{
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    left: 620px;
+    top: 1155px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #000000;
+}
+.by6{
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    left: 620px;
+    top: 1234px;
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    color: #929292;
+}
+.harga6{
+    position: absolute;
+    width: 92px;
+    height: 25px;
+    left: 620px;
+    top: 1259px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #44B300;
+}
+.judul7{
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    left: 880px;
+    top: 1155px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #000000;
+}
+.by7{
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    left: 880px;
+    top: 1234px;
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    color: #929292;
+}
+.harga7{
+    position: absolute;
+    width: 92px;
+    height: 25px;
+    left: 880px;
+    top: 1259px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #44B300;
+}
+.judul8{
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    left: 1140px;
+    top: 1155px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #000000;
+}
+.by8{
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    left: 1140px;
+    top: 1234px;
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    color: #929292;
+}
+.harga8{
+    position: absolute;
+    width: 92px;
+    height: 25px;
+    left: 1140px;
+    top: 1259px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #44B300;
+}
+.klik{
+    z-index: 3;
+    position: absolute;
+    left: 100px;
+    top: 887px;
+    width: 198px;
+    height: 415px;
+}
+.headerlogin{
+    position: absolute;
+    width: 91px;
+    height: 41px;
+    left: 33px;
+    top: 7px;
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    color: #000000;
+}
+.emaillogin{
+    box-sizing: border-box;
+    position: absolute;
+    width: 488px;
+    height: 50px;
+    left: 33px;
+    top: 119px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+}
+.pwlogin{
+    box-sizing: border-box;
+    position: absolute;
+    width: 488px;
+    height: 50px;
+    left: 33px;
+    top: 189px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px
+}
+.kotaklogin{
+    box-sizing: border-box;
+    position: absolute;
+    width: 488px;
+    height: 50px;
+    left: 33px;
+    top: 275px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #393939;
+    border-radius: 1px;
+}
+.toregistertext{
+    position: absolute;
+    width: 276px;
+    height: 25px;
+    left: 137px;
+    top: 336px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #333333;
+}
+.backtolanding{
+    position: absolute;
+    width: 111px;
+    height: 65px;
+    left: 100px;
+    top: 39px;
+}
+.headerregister{
+    position: absolute;
+    width: 91px;
+    height: 41px;
+    left: 33px;
+    top: 7px;
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    color: #000000;
+}
+.registername{
+    box-sizing: border-box;
+    position: absolute;
+    width: 487px;
+    height: 50px;
+    left: 33px;
+    top: 259px;
+    background: rgba(188, 188, 188, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+}
+.kotakregister{
+    box-sizing: border-box;
+    position: absolute;
+    width: 488px;
+    height: 50px;
+    left: 33px;
+    top: 340px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #393939;
+    border-radius: 1px;
+}
+.tologintext{
+    position: absolute;
+    width: 293px;
+    height: 25px;
+    left: 129px;
+    top: 410px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #333333;
+}
+.detailbookdiv{
+    position: absolute;
+    width: 916px;
+    height: 1121px;
+    left: 262px;
+    top: 142px;
+}
+.detailbookimage{
+    position: absolute;
+    width: 400px;
+    height: 577px;
+    left: 262px;
+    top: 142px;
+    border-radius: 10px;
+}
+.judulbuku{
+    position: absolute;
+    width: 470px;
+    height: 116px;
+    left: 708px;
+    top: 92px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120.5%;
+    color: #000000;
+}
+.detailby{
+    position: absolute;
+    width: 186px;
+    height: 24px;
+    left: 708px;
+    top: 246px;
+    font-family: 'Product Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 101.5%;
+    color: #929292;
+}
+.publicationdate{
+    position: absolute;
+    width: 183px;
+    height: 29px;
+    left: 708px;
+    top: 332px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #000000;
+}
+.tanggal{
+    position: absolute;
+    width: 103px;
+    height: 18px;
+    left: 708px;
+    top: 376px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.5%;
+    color: #929292;
+}
+.pagestitle{
+    position: absolute;
+    width: 68px;
+    height: 29px;
+    left: 708px;
+    top: 429px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #000000;
+}
+.pages{
+    position: absolute;
+    width: 31px;
+    height: 18px;
+    left: 708px;
+    top: 473px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.5%;
+    color: #929292;
+}
+.isbn{
+    position: absolute;
+    width: 56px;
+    height: 29px;
+    left: 708px;
+    top: 530px;
+    font-family: 'Product sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #D60000;
+}
+.isbnnumber{
+    position: absolute;
+    width: 131px;
+    height: 18px;
+    left: 708px;
+    top: 574px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.5%;
+    color: #929292;
+}
+.prices{
+    position: absolute;
+    width: 56px;
+    height: 29px;
+    left: 708px;
+    top: 637px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #000000;
+}
+.harga{
+    position: absolute;
+    width: 92px;
+    height: 18px;
+    left: 708px;
+    top: 681px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 101.5%;
+    color: #44B200;
+}
+.about{
+    position: absolute;
+    width: 262px;
+    height: 43px;
+    left: 262px;
+    top: 780px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120.5%;
+    color: #000000;
+
+}
+.paragraf{
+    position: absolute;
+    width: 905px;
+    height: 397px;
+    left: 262px;
+    top: 866px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: justify;
+    color: #929292;
+}
+.kotakaddcart{
+    position: absolute;
+    width: 144px;
+    height: 50px;
+    left: 1001px;
+    top: 1292px;
+    background: #393939;
+    border-radius: 1px;
+}
+.addcartteks{
+    z-index: 2;
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    left: 1013px;
+    top: 1287px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.keranjang2{
+    position: absolute;
+    left: 76.67%;
+    right: 21.68%;
+    top: 94.56%;
+    bottom: 3.84%;
+}
+.klikaddcart{
+    z-index: 3;
+    position: absolute;
+    width: 144px;
+    height: 50px;
+    left: 1001px;
+    top: 1292px;
+}
+.elipse{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 1235px;
+    top: 59px;
+}
+.satu{
+    position: absolute;
+    width: 6px;
+    height: 15px;
+    left: 1239px;
+    top: 59px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.profilheader{
+    position: absolute;
+    width: 104px;
+    height: 37px;
+    left: 222px;
+    top: 170px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 101.5%;
+    color: #000000;
+}
+.bgprofil{
+    position: absolute;
+    width: 995px;
+    height: 334px;
+    left: 222px;
+    top: 266px;
+    background: #FFD9D9;
+    border-radius: 8px;
+}
+.profilimage{
+    position: absolute;
+    width: 226.67px;
+    height: 202px;
+    left: 949px;
+    top: 307px;
+    background-blend-mode: normal;
+}
+.bgeditprofil{
+    position: absolute;
+    width: 227px;
+    height: 50px;
+    left: 949px;
+    top: 523px;
+    background: #D60000;
+    border-radius: 5px;
+}
+.tekseditprofile{
+    z-index: 2;
+    position: absolute;
+    width: 99px;
+    height: 25px;
+    left: 1015px;
+    top: 520px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.emailimage{
+    position: absolute;
+    left: 5%;
+    right: 8.33%;
+    top: 15%;
+    bottom: 16.67%;
+}
+.genderimage{
+    position: absolute;
+    left: 5%;
+    right: 8.33%;
+    top: 35%;
+    bottom: -0.18%;
+}
+.telponimage{
+    position: absolute;
+    left: 5.2%;
+    right: 12.5%;
+    top: 55%;
+    bottom: 12.5%;
+}
+.mapimage{
+    position: absolute;
+    left: 5.5%;
+    right: 20.83%;
+    top: 75%;
+    bottom: 8.33%;    
+}
+.emailaddress{
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    left: 319px;
+    top: 295px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #050505;
+}
+.emailtext{
+    position: absolute;
+    width: 29px;
+    height: 16px;
+    left: 319px;
+    top: 319px;
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #8A8C90;
+}
+.gender{
+    position: absolute;
+    width: 33px;
+    height: 20px;
+    left: 319px;
+    top: 367px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #050505;
+}
+.gendertext{
+    position: absolute;
+    width: 41px;
+    height: 16px;
+    left: 319px;
+    top: 393px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #8A8C90;
+}
+.phonenumber{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 319px;
+    top: 429px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #050505;
+}
+.phonetext{
+    position: absolute;
+    width: 76px;
+    height: 16px;
+    left: 319px;
+    top: 453px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #8A8C90;
+}
+.address{
+    position: absolute;
+    width: 297px;
+    height: 20px;
+    left: 319px;
+    top: 499px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.addresstext{
+    position: absolute;
+    width: 45px;
+    height: 16px;
+    left: 319px;
+    top: 523px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #8A8C90;
+}
+.mybooktext{
+    position: absolute;
+    width: 156px;
+    height: 37px;
+    left: 222px;
+    top: 677px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 101.5%;
+    color: #000000;
+}
+.collectionbookimage1{
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    left: 222px;
+    top: 831px;
+    border-radius: 1px;
+}
+.collectionbooktitle1{
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    left: 222px;
+    top: 1099px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #000000;
+}
+.collectionbookby1{
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    left: 222px;
+    top: 1178px;
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    color: #929292;
+}
+.downloadbackground1{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 222px;
+    top: 1237px;
+    background: #393939;
+    border-radius: 1px;
+}
+.downloadtext1{
+    position: absolute;
+    width: 86px;
+    height: 25px;
+    left: 279px;
+    top: 1227px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.collectionbookimage2{
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    left: 484px;
+    top: 831px;
+    border-radius: 1px;
+}
+.collectionbooktitle2{
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    left: 484px;
+    top: 1099px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120.5%;
+    color: #000000;
+}
+.collectionbookby2{
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    left: 484px;
+    top: 1178px;
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    color: #929292;
+}
+.downloadbackground2{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 484px;
+    top: 1237px;
+    background: #393939;
+    border-radius: 1px;
+}
+.downloadtext2{
+    position: absolute;
+    width: 86px;
+    height: 25px;
+    left: 541px;
+    top: 1227px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.line{
+    position: absolute;
+    left: 0px;
+    width: 238px;
+    border: 1px solid ;
+}
+.action .menu ul li span{
+    color: #A8A8A8;
+}
+.action{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.action .menu{
+    z-index: 2;
+    position: absolute;
+    top: 105px;
+    left: 1077px;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    width: 200px;
+    box-sizing: 0 5px 25px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+.action .menu.active{
+    visibility: visible;
+    opacity: 1;
+}
+.action .menu::before{
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: 28px;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    transform: rotate(45deg);
+}
+.action .menu ul li{
+    list-style: none;
+    padding: 7px 15px;
+    display: flex;
+    align-items: center;
+}
+.action .menu ul li img{
+    position: absolute;
+    max-width: 30px;
+    left: 30px;
+    margin-right: 10px;
+    opacity: 1;
+    transition: 0.5s;
+}
+.action .menu ul li:hover img{
+    opacity: 1;
+}
+.action .menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    transition: 0.5s;
+
+}
+.action .menu ul li:hover a{
+    color: #D60000;
+}
+.click2{    
+    z-index: 3;
+    position: absolute;
+    left: 222px;
+    top: 831px;
+    width: 198px;
+    height: 268px;
+}
+.popupbg{
+    z-index: 3;
+    position: fixed;
+    width: 742px;
+    height: 78px;
+    top: 350px;
+    left: 350px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.popuptext{
+    position: absolute;
+    width: 669px;
+    height: 63px;
+    left: 120px;
+    top: 0px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    color: #469F74;
+}
+.popupbg.show{
+    opacity: 1;
+    pointer-events: all;
+}
+.closepopup{
+    z-index: 1;
+    position: absolute;
+    width: 1440px;
+    height: 1379px;
+}
+.listtransbody{
+    position: relative;
+    width: 1500px;
+    height: 847px;
+    background: #F2F2F2;
+}
+.profil2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 50px;
+    height: 49.29px;
+    left: 1363px;
+    top: 46px;
+}
+.listtransheader{
+    position: absolute;
+    width: 226px;
+    height: 28px;
+    left: 170px;
+    top: 192px;
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.listtransdiv{
+    position: absolute;
+    width: 1159px;
+    height: 512px;
+    left: 170px;
+    top: 262px;
+    border: #000000 solid;
+}
+.nobg{
+    position: absolute;
+    width: 46px;
+    height: 73px;
+    top: -1px;
+    left: -1px;
+    background: #F1F1F1;
+    border: #000000 solid;
+}
+.usersbg{
+    position: absolute;
+    height: 73.14286041259766px;
+    width: 211.1666717529297px;
+    left: 46px;
+    top: -1px;
+    border-radius: 0px;
+    background: #F1F1F1;
+    border: #000000 solid;
+}
+.clickhere{
+    text-decoration: none;
+    color: #000;
+}
